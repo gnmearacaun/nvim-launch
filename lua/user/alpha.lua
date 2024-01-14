@@ -49,7 +49,7 @@ function M.config()
     button("q", icons.ui.SignOut .. " Quit", ":qa<CR>"),
   }
   local function footer()
-    return "chrisatmachine.com"
+    return "digitalneanderthal.com"
   end
 
   dashboard.section.footer.val = footer()

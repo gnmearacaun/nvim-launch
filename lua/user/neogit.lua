@@ -8,6 +8,11 @@ function M.config()
   local wk = require "which-key"
   wk.register {
     ["<leader>gg"] = { "<cmd>Neogit<CR>", "Neogit" },
+    ["<leader>gO"] = { "<cmd>DiffviewOpen<CR>", "DiffviewOpen" },
+    ["<leader>gD"] = { "<cmd>DiffviewOpen main<CR>", "DiffviewOpen main" },
+    ["<leader>gL"] = { "<cmd>Neogit log<CR>", "Neogit log" },
+    ["<leader>gP"] = { "<cmd>Neogit push<CR>", "Neogit push" },
+    ["<leader>gh"] = { "<cmd>DiffviewFileHistory<CR>", "DiffviewFileHistory" },
   }
 
   require("neogit").setup {

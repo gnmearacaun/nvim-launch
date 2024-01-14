@@ -49,10 +49,11 @@ function M.config()
   }
 
   -- Set mapping for searching a session.
+  -- disabled by bod
   -- ⚠️ This will only work if Telescope.nvim is installed
-  vim.keymap.set("n", "<C-s>", require("auto-session.session-lens").search_session, {
-    noremap = true,
-  })
+  -- vim.keymap.set("n", "<C-s>", require("auto-session.session-lens").search_session, {
+    -- noremap = true,
+  -- })
 end
 
 return M
