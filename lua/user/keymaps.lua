@@ -230,11 +230,11 @@ nnoremap t2 :call OpenNoteWiki()<cr>
 function! OpenThisWiki()
   call vimwiki#base#goto_index(3)
 endfunction
-nnoremap 3 :call OpenThisWiki()<cr>
+nnoremap t3 :call OpenThisWiki()<cr>
 function! OpenTechWiki()
   call vimwiki#base#goto_index(4)
 endfunction
-nnoremap 4 :call OpenTechWiki()<cr>
+nnoremap t4 :call OpenTechWiki()<cr>
 
 let g:vimwiki_list = [{
           \ 'path': '~/scripts/vimwiki',
