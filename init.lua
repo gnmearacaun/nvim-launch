@@ -74,6 +74,8 @@ spec "user.extras.harpoon"
 spec "user.extras.todo-comments"
 spec "user.extras.trouble"
 spec "user.extras.cellular-automaton"
+spec "user.extras.rustacean"
+-- mine
 spec "user.extras.obsidian"
 spec "user.extras.vimwiki"
 spec "user.extras.autoscroll"
